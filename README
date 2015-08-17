@@ -1,0 +1,16 @@
+
+Pour creer un blocage IP :
+
+    Syntaxe :
+    	/create/_ticket_/_ip_
+
+    Exemple :
+    	https://blocage.u-strasbg.fr/create/112345/130.79.1.2
+
+    -> renvoi un hash correspondant au blocage
+
+Le hash correspond a un nom de fichier contenant l'adresse IP a bloquer
+
+Authentification : l'adresse IP de la machine qui est autorisee
+a creer le blocage est specifie dans la conf apache
+
